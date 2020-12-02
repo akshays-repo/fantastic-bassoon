@@ -8,7 +8,7 @@ const HomePage = () => {
       username:'',
       userid:''
     })
-    const [errorMsg,  setErrorMsg] = useState(false)
+  const [errorMsg,  setErrorMsg] = useState(false)
   const [usersList, setUsersList] = useState([])
 
     // fuction for handle change
@@ -22,6 +22,7 @@ const HomePage = () => {
    const clearForm = () =>{
     setFormData((formData) => ({
       ...formData,useremailid:'', username:'', userid:usersList.length}))
+      setErrorMsg(false)
    }
 
    const deleteUser = (userid) =>{
@@ -36,7 +37,6 @@ const HomePage = () => {
       setUsersList((usersList) =>([...usersList,formData ]))
       clearForm()
     }
-      
     }
 
    const upDateUser = (userid) =>{
