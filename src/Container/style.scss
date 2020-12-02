@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .home-page{
-    
+    font-family: 'Poppins', sans-serif;
+    .section-padding{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    input{
+        background-color:#ffd6df;
+    }
+    .button{
+        background-color: #fc30a4;
+        border: none;
+        float: right;
+        margin-left: 20px;
+        align-items: center;    
+    text{
+        text-align: center;
+    }}
 }
