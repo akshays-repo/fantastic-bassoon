@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Container, Row, Col ,Form ,FormGroup , Label ,Input, Button} from "reactstrap";
-import { AvForm, AvField, AvGroup, AvInput, AvFeedback, AvRadioGroup, AvRadio, AvCheckboxGroup, AvCheckbox } from 'availity-reactstrap-validation';
 import CardComponent from "./Card";
 import "./style.scss"
 const HomePage = () => {
